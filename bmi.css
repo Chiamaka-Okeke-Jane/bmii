@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-weight: bold;
+}
+
+.bmicalc {
+    background-color: black; 
+    padding: 20px;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 10px;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green; 
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkgreen; 
+}
+#result-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+}
+
+#bmi-value {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#bmi-status {
+    font-size: 18px;
+    margin-top: 5px;
+}
